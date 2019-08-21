@@ -1,0 +1,25 @@
+<ion-content padding>
+  <ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h2>LOGIN</h2>
+
+  <ion-item>
+    <ion-label>E-mail:</ion-label>
+    <ion-input type="email" placeholder="informe seu e-mail" [(ngModel)]="email" name="email"></ion-input>
+  </ion-item>
+
+    <ion-item>
+    <ion-label>Senha:</ion-label>
+    <ion-input type="password" placeholder="informe sua senha" [(ngModel)]="senha" name="senha"></ion-input>
+  </ion-item>
+
+   <ion-item>
+    <button ion-button (click)="login()">Acessar</button>
+  </ion-item>
+</ion-content>
+</ion-content>
